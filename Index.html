@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Six Siege Random Operator Pick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RAINBOW SIX SIEGE RANDOM OPERATOR PICK</h1>
+<div class="button-container">
+    <button id="randomizeBtn">Randomize</button>
+    <button id="attackersBtn">Attackers Only</button>
+    <button id="defendersBtn">Defenders Only</button>
+</div>
+        
+        <div class="content">
+            <!-- Operator Section -->
+            <div class="operator">
+                <img id="operatorImage" class="operator-image" alt="Operator">
+                <div id="result" class="operator-name"></div>
+            </div>
+    
+            <!-- Weapons Section -->
+            <div class="weapons">
+                <div class="weapon">
+                    <img id="primaryImage" class="weapon-image" alt="Primary Weapon">
+                    <div id="primaryResult" class="weapon-name"></div>
+                </div>
+                <div class="weapon">
+                    <img id="secondaryImage" class="weapon-image" alt="Secondary Weapon">
+                    <div id="secondaryResult" class="weapon-name"></div>
+                </div>
+            </div>
+    
+            <!-- Gadgets Section -->
+            <div class="gadgets">
+                <div id="gadgetsImages" class="gadgets-container"></div>
+                <div id="gadgetsResult" class="weapon-name"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
